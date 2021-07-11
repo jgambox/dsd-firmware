@@ -5,6 +5,8 @@
 
 An SPI communication with a thermal camera is being developed. For that it is needed to print in console the hex of the resulting array for debugging. This is the function prototype: Void print_hex(uint16_t * array_list); Implement the code to do the task in C.
 
+#### TODO
+
 - [ ] Ask about dimension of the array or the resolution of the thermal camera.
 - [ ] Ask about if exist a EOF in the frame to indicated the end of the data.
 
