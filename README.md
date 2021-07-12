@@ -8,7 +8,7 @@ An SPI communication with a thermal camera is being developed. For that it is ne
 #### TODO
 
 - [ ] Ask about dimension of the array or the resolution of the thermal camera.
-- [ ] Ask about if exist a EOF in the frame to indicated the end of the data.
+- [x] Ask about if exist a EOF in the frame to indicated the end of the data.
 
 ### Ex. 2
 
