@@ -30,6 +30,9 @@ unsigned int camColors[] = {0x480F,
                              };
 
 
+
+// Ive to change the logic using an EOF bytes
+
 /**
  * 
  * 
