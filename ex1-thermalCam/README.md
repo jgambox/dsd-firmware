@@ -54,10 +54,10 @@ int main()
 
 * hexadecimal representation of an image
 
-
+![](https://github.com/jgambox/dsd-firmware/blob/master/ex1-thermalCam/captura_hex_image.PNG)
 
 * Ouput
 
-
+![](https://github.com/jgambox/dsd-firmware/blob/master/ex1-thermalCam/output_methodRead_img.PNG)
 
 
