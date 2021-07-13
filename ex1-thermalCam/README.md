@@ -2,7 +2,11 @@
 
 ### Assumption
 
-* the thermal camera generates an array with EOF given by the following BYTES 0xFF 0xD9
+* the thermal camera generates an array with EOF given by the following BYTES 0xFF 0xD9. Hex Array created using reference's thermal image
+
+#### Reference img - Convert to HEX
+
+![](https://github.com/jgambox/dsd-firmware/blob/master/ex1-thermalCam/asset/thermal_image.jpg)
 
 ### References
 
