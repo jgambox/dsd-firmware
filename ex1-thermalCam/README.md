@@ -13,6 +13,8 @@
 
 * The logic is detect this EOF Bytes and break the loop. In this way we know that we reach the end of the hex array.
 
+#### Please check thermalmage.c file or run thermalmage.exe
+
 ```
 
  /*
