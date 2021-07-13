@@ -8,7 +8,6 @@
 * JSON body:
 
 ```
-
 {
    "sensor":"sensorTOF_1",
    "data":[
@@ -19,16 +18,14 @@
    ],
    "deviceID":"50"
 }
-
 ```
 #### Img reference
 
-![]()
+![grab](https://github.com/jgambox/dsd-firmware/blob/master/ex2-parkingMeterSol/asset/gif_board.gif)
 
 ### References
 
-* 
-* 
+* https://www.st.com/en/imaging-and-photonics-solutions/vl53l0x.html
 
 ### Code
 
