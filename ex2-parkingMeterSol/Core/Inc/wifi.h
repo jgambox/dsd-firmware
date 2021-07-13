@@ -31,12 +31,22 @@
 #define READBUFFERcomand "R1=100\r\n"
 #define READcommand "R0\r\n"
 
-
+// TENGO QUE CONTRUIR UN JSON DE ESTA FORMA PARA REPORTAR LOS DATOS
+//{
+//   "sensor":"sensorTOF_1",
+//   "data":[
+//      {
+//         "sensorValue": 200,
+//         "carState": 1
+//      }
+//   ],
+//   "deviceID":"50"
+//}
 
 
 #define POSTinit "\rPOST /sensor_data HTTP/1.1\nHost: " IPgw ":" PORTgw "\nContent-Type: application/json\nContent-Length:"
 #define POSTmid    "\n\n{ \"parkingMeterNode\": [ { \"sensor\":"
-#define POSTclose  "} ] }], \"device\": \"" deviceid "\", \"car_state\": 0  }\r\n\r\n"
+#define POSTclose  "} ] }], \"deviceID\": \"" deviceid "\", \"car_state\": 0  }\r\n\r\n"
 
 
 int checkWifiEvent(uint8_t * input, uint8_t *event, int size);

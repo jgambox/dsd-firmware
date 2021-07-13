@@ -159,15 +159,29 @@ int main(void)
 
 			general_states = PROCEED_STATE;
 
-//			setSensor("PROCEED_STATE");
-//			setDataInt("PROCEED_STATE", distance);
-//			sendData();
-
+			/***
+			 * REPRESENTA LA FUNCION   p0.distance = getDistance(uRa0, PIN_PWR0, p0);
+			 * LIGERAMENTE MODIFICADA PARA EFECTO DE PRUEBA.
+			 * CON ESTE METODO SE OBTIENE EL VALOR DE LA VARIABLE DISTANCIA DEL SENSOR TOF
+			 */
 			getDistance(&distance);
 
+			/**
+			 * REPRESENTA LA FUNCION int current_parking_state(float distance);
+			 * HA SIDO LIGERAMENTE MODIFICADA PARA EFECTOS DE PRUEBA.
+			 * INCLUYE LA FSM PARA EL CALCULO DEL ESTADO DE LA ZONA DE PARQUEO.
+			 *
+			 * RECIBE COMO PARAMETRO LA VARIABLE "distance"
+			 */
 			current_state = current_parking_state(distance);
 			HAL_GPIO_TogglePin(GPIOC, LED_BLUE_Pin);
+
+			/**
+			 * No es buena practica. Se debe contruir un delay no bloqueante.
+			 * es solo con propositos de prueba.
+			 */
 			HAL_Delay(100);
+
 			startToF();
 
 			if (previus_state != current_state) {
@@ -188,6 +202,13 @@ int main(void)
 		}
 
 		case REPORT_STATE: {
+
+			/**
+			 * cada vez que existe un cambio de estado de la zona de parqueo se realiza el envio
+			 * via WIFI a una IP:PUERTO del nuevo estado de la zona de parque.
+			 * metodo POST data enviada en formato JSON.
+			 *
+			 */
 			setSensor("ToF_value");
 			setDataInt("parking_State", current_state);
 			sendData();
@@ -197,8 +218,10 @@ int main(void)
 
 		case TIMING_STATE: {
 
-//			se deberia agregar un temporizador para controlar el timing
-//			de ejecucion de estados.
+			/**
+			 * se deberia agregar un temporizador para controlar el timing
+			 * de ejecucion de estados.
+			 */
 			break;
 		}
 

@@ -39,13 +39,13 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  17 .debug_macro  00026e8f  00000000  00000000  00045328  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_line   00012e95  00000000  00000000  0006c1b7  2**0
+ 18 .debug_line   00012e9b  00000000  00000000  0006c1b7  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .debug_str    000e8142  00000000  00000000  0007f04c  2**0
+ 19 .debug_str    000e8142  00000000  00000000  0007f052  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .comment      00000053  00000000  00000000  0016718e  2**0
+ 20 .comment      00000053  00000000  00000000  00167194  2**0
                   CONTENTS, READONLY
- 21 .debug_frame  000033a0  00000000  00000000  001671e4  2**2
+ 21 .debug_frame  000033a0  00000000  00000000  001671e8  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -1215,7 +1215,9 @@ PARKING_STATES current_parking_state(float distance_value) {
  8000d78:	43c80000 	.word	0x43c80000
 
 08000d7c <APP_Initialize>:
-
+ *
+ * Se inicializa los estados de cada FSM
+ */
 void APP_Initialize(void) {
 
 	general_states = INIT_STATE;
