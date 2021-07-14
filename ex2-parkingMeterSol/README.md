@@ -277,10 +277,9 @@ void APP_Initialize(void) {
 
 ### Results
 
-* Video
+#### Watch Video !
 
 [![Watch the video](https://youtu.be/oX-Z2IS5cko)](https://youtu.be/oX-Z2IS5cko)
-
 
 ### My experiences doing hardware and firmware projects 
 
