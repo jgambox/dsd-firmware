@@ -282,4 +282,10 @@ void APP_Initialize(void) {
 [![Watch the video](https://youtu.be/oX-Z2IS5cko)](https://youtu.be/oX-Z2IS5cko)
 
 
+### My experiences doing hardware and firmware projects 
 
+[![photos - Dropbox]](https://www.dropbox.com/home/Projects)
+
+[![Drone]](https://youtu.be/Y9YmeWb3GSw)
+
+[![Data App with Streamlit and Python]](https://youtu.be/lqdVRQTszzc)
