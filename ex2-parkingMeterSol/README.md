@@ -31,7 +31,7 @@
 
 * There are two main files that contains the logic of the firmware
 
-#### Pleas check utilStruct.h file. dir: \ex2-parkingMeterSol\Core\Inc\utilStructs.h
+#### Pleas check utilStruct.h file. dir: ![\ex2-parkingMeterSol\Core\Inc\utilStructs.h](https://github.com/jgambox/dsd-firmware/blob/master/ex2-parkingMeterSol/Core/Inc/utilStructs.h)
 
 ```
 
@@ -177,7 +177,7 @@ void APP_Initialize(void) {
 
 ```
 
-#### the main loop. Please check main.c -> dir: \ex2-parkingMeterSol\Core\Src\main.c
+#### the main loop. Please check main.c -> dir: ![\ex2-parkingMeterSol\Core\Src\main.c](https://github.com/jgambox/dsd-firmware/blob/master/ex2-parkingMeterSol/Core/Src/main.c)
 
 ```
 
