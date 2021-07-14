@@ -209,7 +209,7 @@ int main(void)
 			 * metodo POST data enviada en formato JSON.
 			 *
 			 */
-			setSensor("ToF_value");
+			setSensor("LiDar");
 			setDataInt("parking_State", current_state);
 			sendData();
 			general_states = PROCEED_STATE;
