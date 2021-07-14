@@ -2271,7 +2271,3 @@ int main()
     print_hex(thermalImage);
     return 0;
 }
-
-// reference
-// https://www.file-recovery.com/jpg-signature-format.htm
-// https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner

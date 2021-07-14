@@ -283,7 +283,7 @@ void APP_Initialize(void) {
 
 ### My experiences doing hardware and firmware projects 
 
-[![photos - Dropbox]](https://www.dropbox.com/home/Projects)
+[![photos - Dropbox]](https://www.dropbox.com/sh/929f3a131wgjagc/AAAoyH01LUJFGUEyKchIXFwAa?dl=0)
 
 [![Drone]](https://youtu.be/Y9YmeWb3GSw)
 
